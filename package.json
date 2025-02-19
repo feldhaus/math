@@ -1,7 +1,8 @@
 {
   "name": "math",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "A simple math utility library",
+  "type": "module",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -12,8 +13,9 @@
     "release": "npm version patch && git push --tags"
   },
   "keywords": [],
-  "author": "",
+  "author": "Maicon Feldhaus",
   "license": "ISC",
+  "files": ["dist"],
   "devDependencies": {
     "@rollup/plugin-typescript": "^12.1.2",
     "rimraf": "^6.0.1",
