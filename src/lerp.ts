@@ -7,6 +7,5 @@
  * @returns The interpolated value.
  */
 export function lerp(start: number, end: number, threshold: number): number {
-    return start + (end - start) * threshold;
-  }
-  
+  return start + (end - start) * threshold;
+}
