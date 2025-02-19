@@ -1,6 +1,6 @@
 {
   "name": "math",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple math utility library",
   "type": "module",
   "main": "dist/index.cjs.js",
@@ -15,7 +15,9 @@
   "keywords": [],
   "author": "Maicon Feldhaus",
   "license": "ISC",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@rollup/plugin-typescript": "^12.1.2",
     "rimraf": "^6.0.1",
