@@ -25,6 +25,17 @@
         "ts": "never",
         "tsx": "never"
       }
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "**/*.test.ts", // Allow devDependencies in test files
+          "**/*.spec.ts", // Allow devDependencies in spec files
+          "vitest.config.ts", // Allow devDependencies in the Vitest config
+          "rollup.config.mjs" // If you want to allow it here as well
+        ]
+      }
     ]
   },
   "ignorePatterns": ["vite-env.d.ts", "node_modules", "dist"]

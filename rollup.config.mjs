@@ -6,5 +6,10 @@ export default {
     { file: 'dist/index.cjs.js', format: 'cjs' },
     { file: 'dist/index.esm.js', format: 'esm' },
   ],
-  plugins: [typescript()],
+  plugins: [
+    typescript({
+      tsconfig: './tsconfig.json',
+      rootDir: 'src',
+    }),
+  ],
 };
