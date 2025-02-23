@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
-import { inverseLerp } from '@/inverseLerp';
+import { inverseLerp } from '@/inverse-lerp';
 
-describe('inverseLerp', () => {
+describe('inverse-lerp', () => {
   it('should return 0.5 for values within the range [10, 20] with value 15', () => {
     expect(inverseLerp(10, 20, 15)).toBe(0.5);
   });

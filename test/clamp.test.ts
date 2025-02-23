@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { clamp } from '@/clamp';
 
-describe('test clamp function', () => {
+describe('clamp', () => {
   it('should return the value when it is within the range', () => {
     expect(clamp(5, 1, 10)).toBe(5);
   });

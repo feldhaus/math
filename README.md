@@ -21,11 +21,11 @@ const clampedValue = clamp(5, 1, 10); // Output: 5
 ```typescript
 import { DEG2RAD } from '@feldhaus/math';
 
-const radian = DEG2RAD * 45; // Output: 0.7853981633974483
+const radians = DEG2RAD * 45; // Output: 0.7853981633974483
 ```
 
 ```typescript
-import { lerp } from '@feldhaus/math';
+import { inverseLerp } from '@feldhaus/math';
 
 const relativeValue = inverseLerp(10, 20, 15); // Output: 0.5
 ```
