@@ -10,7 +10,22 @@ You can install the package via npm:
 npm install @feldhaus/math
 ```
 
-## Example
+## Available Functions
+
+- **clamp**: Clamps a number between a minimum and maximum value. [Source](https://github.com/feldhaus/vector/blob/main/src/clamp.ts)
+- **inverseLerp**: Calculates the relative position of a value within a range. [Source](https://github.com/feldhaus/vector/blob/main/src/inverseLerp.ts)
+- **lerp**: Linearly interpolates between two values. [Source](https://github.com/feldhaus/vector/blob/main/src/lerp.ts)
+
+## Available Constants
+
+- **RAD2DEG**: Conversion factor from radians to degrees `180 / Math.PI`.
+- **DEG2RAD**: Conversion factor from degrees to radians `Math.PI / 180`.
+- **HALF_PI**: Half of Pi (π/2) `Math.PI / 2`.
+- **QUARTER_PI**: Quarter of Pi (π/4) `Math.PI / 4`.
+- **TWO_PI**: Two times Pi (2π) `Math.PI * 2`.
+- **TAU**: Tau, which is equivalent to 2π `Math.PI * 2`.
+
+## Examples
 
 ```typescript
 import { clamp } from '@feldhaus/math';

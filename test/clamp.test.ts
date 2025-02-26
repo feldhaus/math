@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { clamp } from '@/clamp';
+import { clamp } from '@/index';
 
 describe('clamp', () => {
   it('should return the value when it is within the range', () => {

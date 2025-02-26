@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { inverseLerp } from '@/inverse-lerp';
+import { inverseLerp } from '@/index';
 
 describe('inverse-lerp', () => {
   it('should return 0.5 for values within the range [10, 20] with value 15', () => {
