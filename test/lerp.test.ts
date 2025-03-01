@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { lerp } from '@/index';
+import { lerp } from 'src/index';
 
 describe('lerp', () => {
   it('should return the start value when threshold is 0', () => {
