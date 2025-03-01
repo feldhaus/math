@@ -9,13 +9,6 @@
     "module": "dist/index.esm.min.js",
     "main": "dist/index.umd.min.js"
   },
-  "exports": {
-    ".": {
-      "require": "./dist/index.cjs.min.js",
-      "import": "./dist/index.esm.min.js",
-      "default": "./dist/index.umd.min.js"
-    }
-  },
   "types": "dist/index.d.ts",
   "scripts": {
     "lint": "eslint src test --ext .ts,.tsx,.js,.jsx",
