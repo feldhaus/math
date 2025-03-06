@@ -56,7 +56,7 @@ const interpolatedValue = lerp(0, 10, 0.5); // Output: 5
 You can also include the library directly in your HTML file using a UMD build:
 
 ```html
-<script src="https://unpkg.com/@feldhaus/math/dist/umd/index.js"></script>
+<script src="https://unpkg.com/@feldhaus/math/dist/index.umd.js"></script>
 ```
 
 This will expose the library as `FMath` on the global window object, allowing you to use the functions like this:
