@@ -31,7 +31,8 @@
     "math",
     "clamp",
     "lerp",
-    "inverseLerp"
+    "inverseLerp",
+    "repeat"
   ],
   "author": "Maicon Feldhaus",
   "license": "MIT",

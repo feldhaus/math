@@ -15,6 +15,7 @@ npm install @feldhaus/math
 - **clamp**: Clamps a number between a minimum and maximum value. [Source](https://github.com/feldhaus/vector/blob/main/src/clamp.ts)
 - **inverseLerp**: Calculates the relative position of a value within a range. [Source](https://github.com/feldhaus/vector/blob/main/src/inverseLerp.ts)
 - **lerp**: Linearly interpolates between two values. [Source](https://github.com/feldhaus/vector/blob/main/src/lerp.ts)
+- **repeat**: Repeats a number within a range by wrapping it around. [Source](https://github.com/feldhaus/vector/blob/main/src/repeat.ts)
 
 ## Available Constants
 
@@ -49,6 +50,13 @@ const relativeValue = inverseLerp(10, 20, 15); // Output: 0.5
 import { lerp } from '@feldhaus/math';
 
 const interpolatedValue = lerp(0, 10, 0.5); // Output: 5
+```
+
+```typescript
+import { repeat } from '@feldhaus/repeat';
+
+repeat(12, 5); // Output: 2
+repeat(400, 360); // Output: 40
 ```
 
 ## Usage in Browser
