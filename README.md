@@ -12,11 +12,11 @@ npm install @feldhaus/math
 
 ## Available Functions
 
-- **clamp**: Clamps a number between a minimum and maximum value. [Source](https://github.com/feldhaus/vector/blob/main/src/clamp.ts)
-- **inverseLerp**: Calculates the relative position of a value within a range. [Source](https://github.com/feldhaus/vector/blob/main/src/inverseLerp.ts)
-- **lerp**: Linearly interpolates between two values. [Source](https://github.com/feldhaus/vector/blob/main/src/lerp.ts)
-- **repeat**: Repeats a number within a range by wrapping it around. [Source](https://github.com/feldhaus/vector/blob/main/src/repeat.ts)
-- **normalizeAngle**: Normalizes an angle to the range [0, 2π]. [Source](https://github.com/feldhaus/vector/blob/main/src/normalizeAngle.ts)
+- **clamp**: Clamps a number between a minimum and maximum value. [Source](https://github.com/feldhaus/math/blob/main/src/clamp.ts)
+- **inverseLerp**: Calculates the relative position of a value within a range. [Source](https://github.com/feldhaus/math/blob/main/src/inverseLerp.ts)
+- **lerp**: Linearly interpolates between two values. [Source](https://github.com/feldhaus/math/blob/main/src/lerp.ts)
+- **repeat**: Repeats a number within a range by wrapping it around. [Source](https://github.com/feldhaus/math/blob/main/src/repeat.ts)
+- **normalizeAngle**: Normalizes an angle to the range [0, 2π]. [Source](https://github.com/feldhaus/math/blob/main/src/normalizeAngle.ts)
 
 ## Available Constants
 
