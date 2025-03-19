@@ -32,7 +32,8 @@
     "clamp",
     "lerp",
     "inverseLerp",
-    "repeat"
+    "repeat",
+    "normalizeAngle"
   ],
   "author": "Maicon Feldhaus",
   "license": "MIT",

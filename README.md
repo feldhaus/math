@@ -16,6 +16,7 @@ npm install @feldhaus/math
 - **inverseLerp**: Calculates the relative position of a value within a range. [Source](https://github.com/feldhaus/vector/blob/main/src/inverseLerp.ts)
 - **lerp**: Linearly interpolates between two values. [Source](https://github.com/feldhaus/vector/blob/main/src/lerp.ts)
 - **repeat**: Repeats a number within a range by wrapping it around. [Source](https://github.com/feldhaus/vector/blob/main/src/repeat.ts)
+- **normalizeAngle**: Normalizes an angle to the range [0, 2π]. [Source](https://github.com/feldhaus/vector/blob/main/src/normalizeAngle.ts)
 
 ## Available Constants
 
@@ -35,12 +36,6 @@ const clampedValue = clamp(5, 1, 10); // Output: 5
 ```
 
 ```typescript
-import { DEG2RAD } from '@feldhaus/math';
-
-const radians = DEG2RAD * 45; // Output: 0.7853981633974483
-```
-
-```typescript
 import { inverseLerp } from '@feldhaus/math';
 
 const relativeValue = inverseLerp(10, 20, 15); // Output: 0.5
@@ -57,6 +52,12 @@ import { repeat } from '@feldhaus/repeat';
 
 repeat(12, 5); // Output: 2
 repeat(400, 360); // Output: 40
+```
+
+```typescript
+import { normalizeAngle } from '@feldhaus/normalizeAngle';
+
+normalizeAngle(3 * Math.PI); // Output: π (approximately 3.14159)
 ```
 
 ## Usage in Browser
